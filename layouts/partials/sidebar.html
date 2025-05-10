@@ -1,0 +1,27 @@
+<aside class="sidebar">
+  <div class="container">
+    <div class="sidebar-about">
+      <img src="../HuskyFOSS.jpg"  />
+      <a href="{{ .Site.BaseURL }}"><h1>{{ .Site.Title }}</h1></a>
+      <p class="lead">
+      {{ with .Site.Params.description }} {{.}} {{ else }}An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.{{end}}
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <!-- <li><a href="{{ .Site.BaseURL }}">Home</a> </li> -->
+        {{ range .Site.Menus.main -}}
+          <li><a href="{{.URL}}"> {{ .Name }} </a></li>
+        {{- end }}
+      </ul>
+    </nav>
+
+    <nav class="sidebar-nav sidebar-nav-icons">
+      <a href="mailto:huskyfoss@uw.edu"><i class="fa-regular fa-envelope fa-lg"></i></a>
+      <a href="https://www.instagram.com/huskyfoss/?hl=en"><i class="fa-brands fa-instagram fa-lg"></i></a>
+      <a href="https://github.com/huskyfoss/"><i class="fa-brands fa-github fa-lg"></i></a>
+    </nav>
+
+  </div>
+</aside>
