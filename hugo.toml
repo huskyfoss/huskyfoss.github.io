@@ -1,0 +1,8 @@
+baseURL = 'https://huskyfoss.github.io/'
+languageCode = 'en-us'
+title = 'Husky FOSS'
+theme = "hyde"
+
+[params]
+  description = "UW Open Source Enthusiasts"
+  themeColor = "theme-base-08"
