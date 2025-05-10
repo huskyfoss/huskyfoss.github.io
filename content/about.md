@@ -5,9 +5,13 @@ title = "About Us"
 
 # Welcome to HuskyFOSS!
 
+Our meetings are typically twice a month located at **SIEG 420**. For more recent updates, please join our [Discord!](https://discord.com/invite/mhqvbqXwrZ)
+
 **Building the Open Source Community at the University of Washington since 2020.**
 
 HuskyFOSS is a core club dedicated to fostering and growing the Free and Open Source Software (FOSS) community at the University of Washington. We believe in the power of collaboration, transparency, and shared knowledge that lies at the heart of the open-source movement.
+
+<!--more-->
 
 ## What We Do
 
@@ -19,6 +23,7 @@ At HuskyFOSS, we aim to:
 * **Advocate:** Raise awareness about the benefits and importance of FOSS within the university and beyond.
 
 ## Get Involved!
+
 
 Ready to dive into the world of open source? Here's how you can get involved with HuskyFOSS:
 
